@@ -241,7 +241,7 @@ int main(int argc, char *argv[]){
 	}
 	bigStruct->performance = fopen("performanceOutput.txt", "w");
 	if(!bigStruct->performance){
-		fprintf(stderr, "Failed to open performance.txt\n");
+		fprintf(stderr, "Failed to open performanceOutput.txt\n");
 		return 1;
 	}
 	fprintf(bigStruct->performance, "Number of requester threads is %d\n", requesterCount);
