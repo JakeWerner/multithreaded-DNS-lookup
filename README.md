@@ -1,1 +1,1 @@
-# multithreaded-DNS-lookup
+# multithreaded-DNS-service
